@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    align-items: center;
+}
+
+li, a, button, p, p1, p2, p3, p4, p5, p6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color : #edf0f1;
+    text-decoration: none;
+}
+h, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    color : #edf0f1;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+h1 {
+    font-size: 35px;
+}
+p1 {
+    font-size: 25px;
+    color: #9fa0a0;
+}
+
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088A9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius:  50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);  
+}
+
+
+.footer-container {
+    margin-top: 250px;
+    background-color: #1f2025;
+    padding: 4rem 0 4rem 0;
+}
+.footer {
+    width: 80%;
+    background-color: #1f2025;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: center;
+    margin: 0 auto;
+}
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    align-items: center;
+}
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+.footer-heading a {
+    transition: all 0.3s ease 0s;
+    margin-bottom: 0.5rem;
+}
+.footer-heading a:hover {
+    color: #0088A9;
+    margin-bottom: 0.5rem;
+}
+.footer-email-form {
+    align-items: center;
+}
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#footer-email::placeholder {
+    color: #b1b1b1;
+}
+#footer-email-btn {
+    padding: 12px 15px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius:  50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1rem;
+    color : #edf0f1;
+}
+#footer-email-btn:hover {
+    background-color: rgba(0,136,169,0.8);  
+}
