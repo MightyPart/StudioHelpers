@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/* clears the 'X' from Internet Explorer */
+input[type="text"]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type="text"]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+/* clears the 'X' from Chrome */
+input[type="text"]::-webkit-search-decoration,
+input[type="text"]::-webkit-search-cancel-button,
+input[type="text"]::-webkit-search-results-button,
+input[type="text"]::-webkit-search-results-decoration { display: none; }
+
+a {
+    transition: all 0.3s ease 0s !important;
+}
+a:hover {
+    color: #0088A9 !important;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -48,7 +66,10 @@ p1 {
     transition: all 0.3s ease 0s;
 }
 .nav_links li a:hover {
-    color: #0088A9;
+    color: #0088A9 !important;
+}
+.nav_links .active {
+    color: #00657d !important;
 }
 
 button {
@@ -109,30 +130,24 @@ button:hover {
     justify-content: center;
     flex-wrap: center;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     flex-direction: column;
     align-items: center;
 }
-
 .option-header{
-    border-style: solid;
-    border-color: #9fa0a0;
     align-items: center;
     color: #fff;
     display: flex;
     justify-content: center;
     flex-wrap: center;
     margin: 0 auto;
-    height:10%;
-    width: 100%;
+    height: 25px;
+    width: 65%;
     border-radius: 0;
-    border-top: 1rem;
-    border-left: 1rem;
-    border-right: 1rem;
     background-color: transparent;
+    margin-top: 1rem;
 }
 .option-container #answer_box {
-    margin-top: 1%;
     align-self: center;
     background-color: #1f2025;
     width: 92.5%;
