@@ -161,3 +161,18 @@ button:hover {
     font-family: "Montserrat", sans-serif;
 }
 
+.side_container_left {
+    width: 110px;
+    height: 529.333333333px;
+    margin-left: 15px;
+    margin-top: 25px;
+    position: absolute; 
+}
+.side_container_right {
+    width: 110px;
+    height: 529.333333333px;
+    margin-right: 15px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
